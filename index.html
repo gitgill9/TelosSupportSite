@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoSlo - Support Center</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="https://placehold.co/200x200/433d79/ffffff?text=G" alt="GoSlo Logo" class="logo">
+            <h1>GoSlo Support</h1>
+            <p>Your companion for mindful journaling and goal setting</p>
+            <div class="app-badges">
+                <a href="#" class="app-badge">
+                    <i class="fab fa-apple"></i> App Store
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="content">
+        <div class="container">
+            <div class="card feature-card">
+                <div class="card-split">
+                    <div class="card-content">
+                        <span class="badge">Need Help?</span>
+                        <h2>We're Here For You</h2>
+                        <p>Getting started with GoSlo or have a question? Our support team is ready to help you make the most of your journaling experience.</p>
+                        <a href="mailto:support@gosloapp.ca" class="btn">
+                            <i class="fas fa-envelope"></i> Contact Support
+                        </a>
+                    </div>
+                    <div class="card-image">
+                        <img src="https://placehold.co/400x300/f8f8fc/433d79?text=Support" alt="Support Illustration">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>
+                    <i class="fas fa-hands-helping icon"></i>
+                    Quick Help Options
+                </h2>
+                <p>Need assistance with GoSlo? We're here to help you with any questions or issues you might have.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Support</h3>
+                        <p>For detailed assistance and account-related inquiries</p>
+                        <a href="mailto:support@gosloapp.ca" class="btn">Contact Us</a>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>FAQ</h3>
+                        <p>Quick answers to common questions</p>
+                        <a href="#faq" class="btn">View FAQs</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" id="faq">
+                <h2>
+                    <i class="fas fa-question-circle icon"></i>
+                    Frequently Asked Questions
+                </h2>
+                
+                <div class="faq-item">
+                    <h3>How do I create a journal entry?</h3>
+                    <p>Tap the "+" button on the Journal tab and follow the prompts to create a new entry. You can add text, photos, voice notes, and more to document your thoughts and experiences.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I set a goal?</h3>
+                    <p>Navigate to the Goals tab, tap "Add Goal", and fill in the details for your new goal. You can set deadlines, track progress, and add notes to keep yourself accountable.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is my data secure?</h3>
+                    <p>Yes, we take security seriously. Your data is encrypted and stored securely in the cloud using Supabase's security infrastructure. We implement industry-standard security practices to protect your information.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I export my data?</h3>
+                    <p>Currently, we don't offer a built-in export feature. If you need to export your data, please contact our support team at support@gosloapp.ca, and we'll assist you with your request.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I track my progress?</h3>
+                    <p>GoSlo offers several ways to track your progress. View statistics in the Dashboard tab, check completed goals in the Goals section, and review past journal entries to see how far you've come.</p>
+                </div>
+            </div>
+            
+            <div class="card link-cards">
+                <h2>
+                    <i class="fas fa-file-contract icon"></i>
+                    Legal Information
+                </h2>
+                <p>Please review our legal documents to understand how we handle your data and the terms of using GoSlo.</p>
+                
+                <div class="link-card-container">
+                    <a href="privacy.html" class="link-card">
+                        <i class="fas fa-lock"></i>
+                        <h3>Privacy Policy</h3>
+                        <p>Learn how we protect and handle your personal information</p>
+                    </a>
+                    
+                    <a href="terms.html" class="link-card">
+                        <i class="fas fa-gavel"></i>
+                        <h3>Terms of Service</h3>
+                        <p>Understand the rules and guidelines for using our app</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://placehold.co/80x80/433d79/ffffff?text=G" alt="GoSlo Logo" class="footer-logo-img">
+                    <p>GoSlo</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="mailto:support@gosloapp.ca">Contact Us</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 GoSlo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-item h3').forEach(item => {
+            // Initially hide all FAQ answers
+            const content = item.nextElementSibling;
+            content.style.display = 'none';
+            item.setAttribute('aria-expanded', 'false');
+            
+            item.addEventListener('click', event => {
+                const content = event.target.nextElementSibling;
+                if (content.style.display === 'none') {
+                    content.style.display = 'block';
+                    event.target.style.borderBottom = 'none';
+                    event.target.setAttribute('aria-expanded', 'true');
+                } else {
+                    content.style.display = 'none';
+                    event.target.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
