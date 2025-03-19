@@ -1,6 +1,6 @@
-# GoSlo Support Site
+# Telos Support Site
 
-This repository contains the support website for the GoSlo app, a mindful journaling and goal-setting application.
+This repository contains the support website for the Telos app, a mindful journaling and goal-setting application.
 
 ## Features
 
@@ -14,7 +14,7 @@ This repository contains the support website for the GoSlo app, a mindful journa
 
 - **Home**: Main support page with quick help options and FAQs
 - **Privacy Policy**: Details about data handling and user privacy
-- **Terms of Service**: Legal terms for using the GoSlo app
+- **Terms of Service**: Legal terms for using the Telos app
 
 ## Technologies Used
 
@@ -39,4 +39,4 @@ This site is hosted on GitHub Pages at [https://gitgill9.github.io/TelosSupportS
 
 ## License
 
-Copyright © 2024 GoSlo. All rights reserved.
+Copyright © 2024 Telos. All rights reserved.
