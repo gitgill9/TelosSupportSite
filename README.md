@@ -1,20 +1,28 @@
 # Telos Support Site
 
-This repository contains the support website for the Telos app, a mindful journaling and goal-setting application.
+This repository contains the support website for the Telos app, a comprehensive personal growth application featuring journaling, meditation, goal setting, and AI coaching.
 
 ## Features
 
 - Modern, responsive design that works on all devices
-- Comprehensive FAQ section to help users get started
-- Detailed privacy policy and terms of service
+- Comprehensive FAQ section covering all app features including AI coaching
+- Detailed privacy policy emphasizing local data storage and user privacy
+- Information about meditation features and personal growth tools
 - Easy-to-navigate interface
 - Contact information for user support
 
 ## Pages
 
-- **Home**: Main support page with quick help options and FAQs
-- **Privacy Policy**: Details about data handling and user privacy
+- **Home**: Main support page with quick help options and FAQs about all features
+- **Privacy Policy**: Details about our privacy-first approach and local-only data storage
 - **Terms of Service**: Legal terms for using the Telos app
+
+## Key Information Included
+
+- Explanation of AI Coach functionality and how to use it
+- Clarification that Telos stores all user data locally on the device
+- Details about meditation features and how they integrate with journaling and goals
+- Complete user privacy information with no data collection policies
 
 ## Technologies Used
 
